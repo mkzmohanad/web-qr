@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  scroll-behavior: smooth;
+}
+.nextPage {
+  animation: moving 2s linear infinite alternate;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+@keyframes moving {
+  0%, 100% { /* Start and end positions */
+    top: 0px;
+  }
+  50% { /* Middle position for the bounce peak */
+    top: 20px;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+} */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
