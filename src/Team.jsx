@@ -16,7 +16,7 @@ function Team() {
 
             {<Card img = "ahsraf.png" name="Mohamed Ashraf" role = "AI" linkedIn = "https://www.linkedin.com/in/mohamed-ashraf-a51002265/" facebook = "https://www.facebook.com/mohamedashraf.esmail" cardWidth = "[30%]" transition="flip-left"/>}
 
-            {<Card img = "ezz.png" name="Ezz Eldin Elsharkawy" role = "AI + Team Leader" linkedIn = "https://www.linkedin.com/in/ezz-eldin-elsharkawy-69071723a/" facebook = "https://www.facebook.com/profile.php?id=100011293651331" cardWidth = "[30%]" transition="flip-up"/>}
+            {<Card img = "ezz.png" name="Ezz Eldin Elsharkawy" role = "AI" leader = {true} linkedIn = "https://www.linkedin.com/in/ezz-eldin-elsharkawy-69071723a/" facebook = "https://www.facebook.com/profile.php?id=100011293651331" cardWidth = "[30%]" transition="flip-up"/>}
 
             {<Card img = "mego.png" name="Mohamed Magdy" role = "AI" linkedIn = "https://www.linkedin.com/in/mmohamedmagdy/" facebook = "https://www.facebook.com/profile.php?id=100071144183755" cardWidth = "[30%]" transition="flip-right"/>}
 
