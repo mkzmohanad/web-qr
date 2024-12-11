@@ -13,7 +13,7 @@ function About() {
 
     useEffect(() => {
         AOS.init({
-          duration: 1000, // Optional: Animation duration
+          duration: 700, // Optional: Animation duration
         });
       }, []);
 

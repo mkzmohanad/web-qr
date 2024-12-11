@@ -8,7 +8,7 @@ function Home() {
 
     useEffect(() => {
         AOS.init({
-          duration: 2000, // Optional: Animation duration
+          duration: 1000, // Optional: Animation duration
         });
       }, []);
 
