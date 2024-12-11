@@ -15,7 +15,7 @@ function FirstDiscussion() {
 
             <h3 className="text-2xl italic font-semibold"data-aos="zoom-in">{`Presentation used in the first project graduation's discussion: `} <a className="underline" href="https://prezi.com/view/231g9OkkJSPMtIJ2pzXB/" target="_blank">Team Presentation</a></h3>
 
-            <img className="w-full h-[1000px]" src="../src/assets/team.jpg" alt="" data-aos="fade-up"/>
+            <img className="w-full h-[1000px]" src="src/assets/team.jpg" alt="" data-aos="fade-up"/>
         </div>
     </section>
 }
