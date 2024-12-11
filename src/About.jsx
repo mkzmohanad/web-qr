@@ -3,11 +3,9 @@ import { GoGoal } from "react-icons/go";
 import { FaTasks } from "react-icons/fa";
 import { FaEye } from "react-icons/fa";
 
-
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-
 
 function About() {
 
